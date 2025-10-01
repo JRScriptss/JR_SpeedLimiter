@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS `JR_SpeedLimitWhitelist` (
+  `spawncode` VARCHAR(50) NOT NULL PRIMARY KEY,
+  `speed` INT NOT NULL DEFAULT 0
+);
